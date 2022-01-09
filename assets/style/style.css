@@ -8,7 +8,23 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    padding: 50px;
 }
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo-git{
+    height: 90px;
+    width: 90px;
+    margin-left: auto;
+    background-image: url(assets\img\github.png);
+    transition: .5s; /*Transição de 500ms para deixar  suave*/
+}
+.logo-git:hover{
+    background-image: url(assets\img\github02.png);
+}
+
 .calculadora{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
